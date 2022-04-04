@@ -16,6 +16,25 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_indexNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfRetrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_simpleStorageIndex",
 						"type": "uint256"
 					},
@@ -59,7 +78,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SimpleStorageFactory.sol": "StorageFactory"
+			"contracts/SimpleStorageFactory.sol": "SimpleStorageFactory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -81,10 +100,10 @@
 			]
 		},
 		"contracts/SimpleStorageFactory.sol": {
-			"keccak256": "0x4b267e7e3b24a8875b555848c7f484058d8089257e6e9ec19f8e694c26e55891",
+			"keccak256": "0xac8ed2513d5e49469b3161a558dde724313a5e9decfdacc01157700fdb49e0d0",
 			"urls": [
-				"bzz-raw://15243b7ee3688bad61a40eb440688613b145ab9542ce1276e50510adb3b061b6",
-				"dweb:/ipfs/QmXGC1oWEULfJJKd8E5xZ85uaiSHEbSWekoPhAUwt7uj4d"
+				"bzz-raw://9b0f43acbf90d2796b09d4f621d66a19c7c660d6e639d0a01c17d4ee877f5ce5",
+				"dweb:/ipfs/QmaiskRwJUHp2gnuKEgzNh6TBBk3EeRc38gveRpaRbN6o8"
 			]
 		}
 	},

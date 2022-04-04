@@ -65,6 +65,32 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieveNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "storeNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -91,10 +117,10 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xf2a24032e926708e93d0480f0780a380708d2d7ef09188c5fe2609f1202ad07d",
+			"keccak256": "0x93280d62bee98d108f1649367bb4b8fe51d337c9035de8586a3be84150b9db13",
 			"urls": [
-				"bzz-raw://5b205705ec9a47df45d99a664d823bf695d70ed1c84b37099a5e1d7cbbbdf5ec",
-				"dweb:/ipfs/QmfKUbsFxr5CBmhvMdk6wgVasT7u9J4MMiVSNNPCHE9D83"
+				"bzz-raw://dc584fda5d1c48c569e6de5fc8ce3e01e51346a3662cd906855d932fe6462ff5",
+				"dweb:/ipfs/QmZ1XaE6QFisPAw4PSz8s8pM6yHcGnxArHn4GxJKmNwaHT"
 			]
 		}
 	},
