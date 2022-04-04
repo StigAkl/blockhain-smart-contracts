@@ -4,9 +4,6 @@ pragma solidity ^0.6.0;
 
 contract SimpleStorage {
     
-    //initialized to 0 by default
-    uint256 private favoriteNumber;
-
     struct People {
         uint256 favoriteNumber; 
         string name; 
@@ -23,9 +20,5 @@ contract SimpleStorage {
     function store(uint256 _favoriteNumber) public {
         favoriteNumber = _favoriteNumber; 
     } 
-
-    function retrieveFavoriteNumber() public view returns(uint256) {
-        return favoriteNumber; 
-    }
 }
 

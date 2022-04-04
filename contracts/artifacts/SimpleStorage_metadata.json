@@ -1,10 +1,85 @@
 {
 	"compiler": {
-		"version": "0.6.6+commit.6c089d02"
+		"version": "0.6.1+commit.e6f7d5a4"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPeople",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumbers",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"methods": {}
 		},
@@ -29,10 +104,10 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0xec584ecedd7d7f1deb70f02aee1d0f2eeb94d8a9cd995318fb81988c1888c317",
+			"keccak256": "0x63478f37a633fbfac6dd55c9435ca328b3cacb2fd3cf69abf11bbca0cc83a36b",
 			"urls": [
-				"bzz-raw://45a98e7f1174296e651b47853c53618d45099acb7f8fcd0253e7532f60f1291d",
-				"dweb:/ipfs/QmTY5RPZqSsZo5VUjEQtXVAxHktG5s43j3gXEaeUpCaAv9"
+				"bzz-raw://7e5a190bc33f0f4c0b6dbb60dc617369245a58d5393d84c6e680385112a6e116",
+				"dweb:/ipfs/QmQuMZLjBXV5iZX2VP9EH3q89bnJ4gkDa5sS6uDrPAaDiW"
 			]
 		}
 	},
