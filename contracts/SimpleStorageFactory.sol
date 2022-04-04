@@ -1,4 +1,4 @@
-pragma ^0.6.0; 
+pragma solidity ^0.6.0; 
 
 import "./SimpleStorage.sol"; 
 
