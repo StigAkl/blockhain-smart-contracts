@@ -65,19 +65,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_favoriteNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "store",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -104,10 +91,10 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x63478f37a633fbfac6dd55c9435ca328b3cacb2fd3cf69abf11bbca0cc83a36b",
+			"keccak256": "0xf2a24032e926708e93d0480f0780a380708d2d7ef09188c5fe2609f1202ad07d",
 			"urls": [
-				"bzz-raw://7e5a190bc33f0f4c0b6dbb60dc617369245a58d5393d84c6e680385112a6e116",
-				"dweb:/ipfs/QmQuMZLjBXV5iZX2VP9EH3q89bnJ4gkDa5sS6uDrPAaDiW"
+				"bzz-raw://5b205705ec9a47df45d99a664d823bf695d70ed1c84b37099a5e1d7cbbbdf5ec",
+				"dweb:/ipfs/QmfKUbsFxr5CBmhvMdk6wgVasT7u9J4MMiVSNNPCHE9D83"
 			]
 		}
 	},
