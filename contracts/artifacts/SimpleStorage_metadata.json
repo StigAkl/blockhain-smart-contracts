@@ -6,67 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_favoriteNumber",
-						"type": "uint256"
-					}
-				],
-				"name": "addPeople",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "nameToFavoriteNumbers",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "people",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "favoriteNumber",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "retrieveNumber",
 				"outputs": [
@@ -117,10 +56,10 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x93280d62bee98d108f1649367bb4b8fe51d337c9035de8586a3be84150b9db13",
+			"keccak256": "0x90819c1aee1ec7001e343df925cf5f17a834eda3b5fefd91cbbefc1029ec3de7",
 			"urls": [
-				"bzz-raw://dc584fda5d1c48c569e6de5fc8ce3e01e51346a3662cd906855d932fe6462ff5",
-				"dweb:/ipfs/QmZ1XaE6QFisPAw4PSz8s8pM6yHcGnxArHn4GxJKmNwaHT"
+				"bzz-raw://c360f740346e8a350c1907557da1e46e43f11c9cf1dd4a9cd850a48e72f1c932",
+				"dweb:/ipfs/QmcVwP16PwFtXmnoYsdnftC5RCJWVdh2UeshGVWKBqb2ct"
 			]
 		}
 	},
